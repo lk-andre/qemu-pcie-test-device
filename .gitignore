@@ -1,0 +1,4 @@
+external/qemu
+build
+*.swp
+*.swo
