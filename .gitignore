@@ -1,4 +1,5 @@
 external/qemu
 build
+Kbuild
 *.swp
 *.swo

@@ -5,4 +5,5 @@ project(
   VERSION 1.0
   LANGUAGES C)
 
+add_subdirectory(src/kernel)
 add_subdirectory(src/userspace)

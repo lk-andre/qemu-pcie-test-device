@@ -1,8 +1,14 @@
 #ifndef PCIE_DEVICE_REGS_H
 #define PCIE_DEVICE_REGS_H
 
+#ifdef __KERNEL__
+#include <linux/types.h>
+#endif // __KERNEL__
+
+#ifdef USERSPACE_APP
 #include <assert.h>
 #include <stdint.h>
+#endif // USERSPACE_APP
 
 #define PCI_TEST_DEVICE_IP_VERSION            0x0101
 

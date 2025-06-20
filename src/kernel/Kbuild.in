@@ -1,0 +1,4 @@
+# src/kernel/Kbuild.in
+
+obj-m := @KERNEL_MODULE_NAME@.o
+ccflags-y := -I@PROJECT_SOURCE_DIR@/include
